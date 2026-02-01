@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Singkat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .project {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #3498db;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #2980b9;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arie - Portofolio</h1>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya seorang CCTV & Fire Fighting Operator dengan keahlian di bidang keamanan, IT support, dan EHS. Portofolio ini menampilkan beberapa proyek dan pengalaman saya.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyek</h2>
+    <div class="project">
+      <h3>Monitoring CCTV</h3>
+      <p>Sistem monitoring real-time untuk keamanan perusahaan.</p>
+      <a href="#" class="btn" onclick="showAlert('Monitoring CCTV')">Detail</a>
+    </div>
+    <div class="project">
+      <h3>Fire Fighting System</h3>
+      <p>Implementasi sistem pemadam kebakaran otomatis.</p>
+      <a href="#" class="btn" onclick="showAlert('Fire Fighting System')">Detail</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak</h2>
+    <p>Email: arie@example.com</p>
+    <p>LinkedIn: linkedin.com/in/arie</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Arie. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script>
+    function showAlert(projectName) {
+      alert("Anda membuka detail proyek: " + projectName);
+    }
+  </script>
+</body>
+</html>
